@@ -6,6 +6,8 @@ import Navbar from './components/Navbar';
 import Service from './components/Service';
 import TopBar from './components/TopBar';
 import SpecialDish from './components/SpecialDish';
+import Reservation from './components/Reservation';
+import Menu from './components/Menu'
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
       <Service />
       <About />
       <SpecialDish />
+      <SpecialDish />
+      <Reservation />
+      <Menu />
     </div>
   );
 }
