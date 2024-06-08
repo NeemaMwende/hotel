@@ -8,6 +8,9 @@ import TopBar from './components/TopBar';
 import SpecialDish from './components/SpecialDish';
 import Reservation from './components/Reservation';
 import Menu from './components/Menu'
+import Testimonials from './components/Testimonials';
+import Features from './components/Features'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
       <SpecialDish />
       <Reservation />
       <Menu />
+      <Testimonials />
+      <Features />
+      <Footer />
     </div>
   );
 }
