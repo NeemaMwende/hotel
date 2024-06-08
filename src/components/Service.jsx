@@ -74,7 +74,7 @@ const Service = () => {
                 <a href="#" className="has-before hover:shine">
                   <figure className="card-banner img-holder" style={{width:285, height:336}}>
                     <img src={service3} width="285" height="336" loading="lazy" alt="Drinks"
-                      class="img-cover" />
+                      className="img-cover" />
                   </figure>
                 </a>
 

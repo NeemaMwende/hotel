@@ -6,7 +6,7 @@ import event3 from "../Images/event-3.jpg"
 
 const Event = () => {
   return (
-    <section className="section event bg-black-10" id="event" aria-label="event">
+    <section className="section event bg-black-10" id="event" >
         <div className="container">
 
           <p className="section-subtitle label-2 text-center">Recent Updates</p>

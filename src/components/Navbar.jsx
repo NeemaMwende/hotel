@@ -7,7 +7,7 @@ const Navbar = () => {
   <header className="header" data-header>
     <div className="container">
 
-      <a href="#" className="logo">
+      <a href="#home" className="logo">
         <img src={logo} width="160" height="50" alt="Grilli - Home" />
       </a>
 
@@ -17,7 +17,7 @@ const Navbar = () => {
           <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
         </button>
 
-        <a href="#" className="logo">
+        <a href="#home" className="logo">
           <img src={logo} width="160" height="50" alt="Grilli - Home" />
         </a>
 
@@ -88,7 +88,7 @@ const Navbar = () => {
 
       </nav>
 
-      <a href="#" className="btn btn-secondary">
+      <a href="#home" className="btn btn-secondary">
         <span className="text text-1">Find A Table</span>
 
         <span className="text text-2" aria-hidden="true">Find A Table</span>

@@ -12,7 +12,7 @@ const Footer = () => {
 
         <div className="footer-brand has-before has-after">
 
-          <a href="#" className="logo">
+          <a href="#home" className="logo">
             <img src="./assets/images/logo.svg" width="160" height="50" loading="lazy" alt="grilli home" />
           </a>
 
@@ -37,17 +37,17 @@ const Footer = () => {
           <p className="title-1">Get News & Offers</p>
 
           <p className="label-1">
-            Subscribe us & Get <span class="span">25% Off.</span>
+            Subscribe us & Get <span className="span">25% Off.</span>
           </p>
 
           <form action="" className="input-wrapper">
             <div className="icon-wrapper">
               <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
 
-              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field" />
+              <input type="email" name="email_address" placeholder="Your email" autoComplete="off" className="input-field" />
             </div>
 
-            <button type="submit" class="btn btn-secondary">
+            <button type="submit" className="btn btn-secondary">
               <span className="text text-1">Subscribe</span>
 
               <span className="text text-2" aria-hidden="true">Subscribe</span>
@@ -59,23 +59,23 @@ const Footer = () => {
         <ul className="footer-list">
 
           <li>
-            <a href="#" className="label-2 footer-link hover-underline">Home</a>
+            <a href="#home" className="label-2 footer-link hover-underline">Home</a>
           </li>
 
           <li>
-            <a href="#" className="label-2 footer-link hover-underline">Menus</a>
+            <a href="#menu" className="label-2 footer-link hover-underline">Menus</a>
           </li>
 
           <li>
-            <a href="#" className="label-2 footer-link hover-underline">About Us</a>
+            <a href="#about" className="label-2 footer-link hover-underline">About Us</a>
           </li>
 
           <li>
-            <a href="#" className="label-2 footer-link hover-underline">Our Chefs</a>
+            <a href="#chef" className="label-2 footer-link hover-underline">Our Chefs</a>
           </li>
 
           <li>
-            <a href="#" className="label-2 footer-link hover-underline">Contact</a>
+            <a href="#contact" className="label-2 footer-link hover-underline">Contact</a>
           </li>
 
         </ul>
@@ -83,23 +83,23 @@ const Footer = () => {
         <ul className="footer-list">
 
           <li>
-            <a href="#" className="label-2 footer-link hover-underline">Facebook</a>
+            <a href="#facebook" className="label-2 footer-link hover-underline">Facebook</a>
           </li>
 
           <li>
-            <a href="#" className="label-2 footer-link hover-underline">Instagram</a>
+            <a href="#instagram" className="label-2 footer-link hover-underline">Instagram</a>
           </li>
 
           <li>
-            <a href="#" className="label-2 footer-link hover-underline">Twitter</a>
+            <a href="#twitter" className="label-2 footer-link hover-underline">Twitter</a>
           </li>
 
           <li>
-            <a href="#" className="label-2 footer-link hover-underline">Youtube</a>
+            <a href="#youtube" className="label-2 footer-link hover-underline">Youtube</a>
           </li>
 
           <li>
-            <a href="#" className="label-2 footer-link hover-underline">Google Map</a>
+            <a href="#map" className="label-2 footer-link hover-underline">Google Map</a>
           </li>
 
         </ul>
@@ -109,8 +109,8 @@ const Footer = () => {
       <div className="footer-bottom">
 
         <p className="copyright">
-          &copy; 2023 Grilli. All Rights Reserved | Crafted by <a href="https://github.com/wanayama"
-            target="_blank" class="link">Neema Mwende</a>
+          &copy; 2023 Grilli. All Rights Reserved | Crafted by <a href="https://github.com/NeemaMwende"
+            target="_blank" className="link" rel='noreferrer'>Neema Mwende</a>
         </p>
 
       </div>

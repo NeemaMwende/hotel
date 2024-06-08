@@ -9,7 +9,7 @@ import menu6 from "../Images/menu-6.png"
 
 const Menu = () => {
   return (
-    <section className="section menu" id="menu" aria-label="menu-label" id="menu">
+    <section className="section menu" id="menu" aria-label="menu-label">
     <div className="container">
 
       <p className="section-subtitle text-center label-2">Special Selection</p>
@@ -21,7 +21,7 @@ const Menu = () => {
         <li>
           <div className="menu-card hover:card">
 
-            <figure className="card-banner img-holder" style="--width: 100; --height: 100;">
+            <figure className="card-banner img-holder" style={{width:100, height:100}}>
               <img src={menu1} width="100" height="100" loading="lazy" alt="Greek Salad"
                 className="img-cover" />
             </figure>
@@ -50,7 +50,7 @@ const Menu = () => {
         <li>
           <div className="menu-card hover:card">
 
-            <figure className="card-banner img-holder" style="--width: 100; --height: 100;">
+            <figure className="card-banner img-holder" style={{width:100, height:100}}>
               <img src={menu2} width="100" height="100" loading="lazy" alt="Lasagne"
                 className="img-cover" />
             </figure>
@@ -77,9 +77,9 @@ const Menu = () => {
         <li>
           <div className="menu-card hover:card">
 
-            <figure className="card-banner img-holder" style="--width: 100; --height: 100;">
+            <figure className="card-banner img-holder" style={{width:100, height:100}}>
               <img src={menu3} width="100" height="100" loading="lazy" alt="Butternut Pumpkin"
-                class="img-cover" />
+                className="img-cover" />
             </figure>
 
             <div>
@@ -104,9 +104,9 @@ const Menu = () => {
         <li>
           <div className="menu-card hover:card">
 
-            <figure className="card-banner img-holder" style="--width: 100; --height: 100;">
+            <figure className="card-banner img-holder" style={{width:100, height:100}}>
               <img src={menu4} width="100" height="100" loading="lazy" alt="Tokusen Wagyu"
-                class="img-cover" />
+                className="img-cover" />
             </figure>
 
             <div>
@@ -133,16 +133,16 @@ const Menu = () => {
         <li>
           <div className="menu-card hover:card">
 
-            <figure className="card-banner img-holder" style="--width: 100; --height: 100;">
+            <figure className="card-banner img-holder" style={{width:100, height:100}}>
               <img src={menu5} width="100" height="100" loading="lazy" alt="Olivas Rellenas"
-                class="img-cover" />
+                className="img-cover" />
             </figure>
 
             <div>
 
               <div className="title-wrapper">
                 <h3 className="title-3">
-                  <a href="#" class="card-title">Olivas Rellenas</a>
+                  <a href="#" className="card-title">Olivas Rellenas</a>
                 </h3>
 
                 <span className="span title-2">$25.00</span>
@@ -160,7 +160,7 @@ const Menu = () => {
         <li>
           <div className="menu-card hover:card">
 
-            <figure className="card-banner img-holder" style="--width: 100; --height: 100;">
+            <figure className="card-banner img-holder" style={{width:100, height:100}}>
               <img src={menu6} width="100" height="100" loading="lazy" alt="Opu Fish"
                 className="img-cover" />
             </figure>
@@ -187,7 +187,7 @@ const Menu = () => {
       </ul>
 
       <p className="menu-text text-center">
-        During winter daily from <span class="span">7:00 pm</span> to <span class="span">9:00 pm</span>
+        During winter daily from <span className="span">7:00 pm</span> to <span className="span">9:00 pm</span>
       </p>
 
       <a href="#" className="btn btn-primary">
@@ -197,9 +197,9 @@ const Menu = () => {
       </a>
 
       <img src={menu5} width="921" height="1036" loading="lazy" alt="shape"
-        class="shape shape-2 move-anim" />
+        className="shape shape-2 move-anim" />
       <img src={menu6} width="343" height="345" loading="lazy" alt="shape"
-        class="shape shape-3 move-anim" />
+        className="shape shape-3 move-anim" />
 
     </div>
   </section>

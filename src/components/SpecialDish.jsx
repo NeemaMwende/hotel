@@ -17,7 +17,7 @@ const SpecialDish = () => {
         <div className="special-dish-content bg-black-10">
           <div className="container">
 
-            <img src={badge1} width="28" height="41" loading="lazy" alt="badge" class="abs-img" />
+            <img src={badge1} width="28" height="41" loading="lazy" alt="badge" className="abs-img" />
 
             <p className="section-subtitle label-2">Special Dish</p>
 

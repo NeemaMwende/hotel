@@ -17,10 +17,11 @@ const Reservation = () => {
             or fill out the order form
           </p>
 
-          <div className="input-wrapper">
-            <input type="text" name="name" placeholder="Your Name" autocomplete="off" className="input-field" />
 
-            <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" className="input-field" />
+          <div className="input-wrapper">
+            <input type="text" name="name" placeholder="Your Name" autoComplete="off" className="input-field" />
+
+            <input type="tel" name="phone" placeholder="Phone Number" autoComplete="off" className="input-field" />
           </div>
 
           <div className="input-wrapper">
@@ -75,7 +76,7 @@ const Reservation = () => {
 
           </div>
 
-          <textarea name="message" placeholder="Message" autocomplete="off" className="input-field"></textarea>
+          <textarea name="message" placeholder="Message" autoComplete="off" className="input-field"></textarea>
 
           <button type="submit" className="btn btn-secondary">
             <span className="text text-1">Book A Table</span>
@@ -85,7 +86,8 @@ const Reservation = () => {
 
         </form>
 
-        <div className="form-right text-center" style={{backgroundImage:('../Images/form-pattern.png')}}>
+        <div className="form-right text-center" style={{ backgroundImage: 'url(../Images/form-pattern.png)' }}>
+
 
           <h2 className="headline-1 text-center">Contact Us</h2>
 
@@ -104,7 +106,7 @@ const Reservation = () => {
 
           <p className="contact-label">Lunch Time</p>
 
-          <p class="body-4">
+          <p className="body-4">
             Monday to Sunday <br/>
             11.00 am - 2.30pm
           </p>
