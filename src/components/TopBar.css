@@ -1,0 +1,26 @@
+/* .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--smoky-black-2);
+    padding: 10px 20px;
+  }
+  
+  .topbar-item {
+    display: flex;
+    align-items: center;
+    color: var(--white);
+  }
+  
+  .icon {
+    margin-right: 8px;
+  }
+  
+  .separator {
+    width: 8px;
+    height: 8px;
+    border: 1px solid var(--gold-crayola);
+    transform: rotate(45deg);
+    margin: 0 15px;
+  }
+   */

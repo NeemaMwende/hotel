@@ -1,4 +1,5 @@
 import React from 'react'
+import "./PreLoader.css"
 
 const PreLoader = () => {
   return (
@@ -9,4 +10,4 @@ const PreLoader = () => {
   )
 }
 
-export default PreLoader
+export default PreLoader;
