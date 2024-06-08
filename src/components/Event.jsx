@@ -18,11 +18,11 @@ const Event = () => {
             <li>
               <div className="event-card has-before hover:shine">
 
-                <div className="card-banner img-holder" style="--width: 350; --height: 450;">
+                <div className="card-banner img-holder" style={{width:350, height:450}}>
                   <img src={event1} width="350" height="450" loading="lazy"
                     alt="Flavour so good you’ll try to eat with your eyes." className="img-cover" />
 
-                  <time className="publish-date label-2" datetime="2023-09-15">15/09/2023</time>
+                  <time className="publish-date label-2" dateTime="2023-09-15">15/09/2023</time>
                 </div>
 
                 <div className="card-content">
@@ -39,11 +39,11 @@ const Event = () => {
             <li>
               <div className="event-card has-before hover:shine">
 
-                <div className="card-banner img-holder" style="--width: 350; --height: 450;">
+                <div className="card-banner img-holder" style={{width:350, height:450}}>
                   <img src={event2} width="350" height="450" loading="lazy"
                     alt="Flavour so good you’ll try to eat with your eyes." className="img-cover" />
 
-                  <time className="publish-date label-2" datetime="2023-09-08">08/09/2023</time>
+                  <time className="publish-date label-2" dateTime="2023-09-08">08/09/2023</time>
                 </div>
 
                 <div className="card-content">
@@ -60,11 +60,11 @@ const Event = () => {
             <li>
               <div className="event-card has-before hover:shine">
 
-                <div className="card-banner img-holder" style="--width: 350; --height: 450;">
+                <div className="card-banner img-holder" style={{width:350, height:450}}>
                   <img src={event3} width="350" height="450" loading="lazy"
                     alt="Flavour so good you’ll try to eat with your eyes." className="img-cover" />
 
-                  <time className="publish-date label-2" datetime="2023-09-06">06/09/2023</time>
+                  <time className="publish-date label-2" dateTime="2023-09-06">06/09/2023</time>
                 </div>
 
                 <div className="card-content">
